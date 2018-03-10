@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+
+    tools:context="com.example.login.majorproject.MainActivity">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@drawable/csef"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="200dp"
+        android:rotation="-45"
+        android:textSize="20sp"
+        android:onClick="cse"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/ecef"
+        android:rotation="-45"
+        android:textSize="20sp"
+        android:onClick="ece"/>
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@drawable/itf"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="200dp"
+        android:rotation="-45"
+        android:textSize="20sp"
+        android:onClick="it"/>
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="110dp"
+        android:background="@drawable/eeef"
+        android:layout_height="110dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="375dp"
+        android:rotation="-45"
+        android:textSize="20sp"
+        android:onClick="eee"/>
+
+
+</RelativeLayout>
