@@ -44,5 +44,11 @@ public class MainActivity extends AppCompatActivity {
         i.putExtra("project", "answer");
         startActivity(i);
     }
+    
+    public void mec(View view) {
+        Intent i = new Intent(getApplicationContext(), Main2Activity.class);
+        i.putExtra("project", "answer");
+        startActivity(i);
+    }
 
 }
